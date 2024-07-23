@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n>0){
+            System.out.println("The Given Number"+n+"is positive.");
+        }
+        else if(n<0){
+            System.out.println("The Given Number"+n+"is Negative.");
+        }
+        else if(n==0)
+        {
+            System.out.print("The Given Number"+n+"is Zero");
+        }
+    }
+    
+}
